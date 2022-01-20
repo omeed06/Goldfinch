@@ -14,7 +14,7 @@
   <body>
     <!-- left side -->
     <div class="grid grid-cols-4">
-      <div class="col-span-1">
+      <div class="col-span-1 hidden md:block">
         <div
           class="container bg-gray-200 border rounded-md px-20 py-20 mt-32"
           style="
@@ -47,11 +47,13 @@
       <!-- left side end-->
 
       <!-- right side -->
-      <div class="col-span-3">
-        <img src="./images/Group 10471.jpg" alt="" />
+      <div class="col-span-4 md:col-span-3">
+        <img  src="./images/Group 10471.jpg" alt="" />
         <div class="flex flex-col container justify-center items-center">
-          <div class="container flex flex-row mt-28 px-36">
-            <div class="flex-auto w-32">
+          <div
+            class="flex flex-col container mt-10 lg:flex-row lg:mt-28 lg:px-36"
+          >
+            <div class="flex-auto w-full text-center lg:w-32 lg:text-left">
               <p class="font-bold text-xl">About Us</p>
               <hr class="w-16 mb-5 border-2 border-green-500" />
               <h1 class="text-4xl font-bold">So what is Goldfinch??</h1>
@@ -82,15 +84,15 @@
               <p>We made Drench to be instant, fun and surprising.</p>
             </div>
 
-            <div class="flex-auto w-64">
+            <div class="flex-auto w-96 lg:w-64">
               <img src="./images/Group 10361.jpg" alt="" />
             </div>
           </div>
 
           <!-- PART 2 -->
 
-          <div class="container flex flex-row mt-28 px-36 gap-4">
-            <div class="flex-1 w-32">
+          <div class="flex flex-col container lg:flex-row lg:mt-28 lg:px-36">
+            <div class="flex-auto w-full text-center lg:w-32 lg:text-left">
               <p class="font-bold text-xl">Our Feature</p>
               <hr class="w-16 mb-5 border-2 border-green-500" />
               <h1 class="text-4xl font-bold">Packed Full of Features</h1>
@@ -122,7 +124,7 @@
               </p>
             </div>
 
-            <div class="flex-1 w-64">
+            <div class="flex-auto mt-10 w-96 lg:w-64 lg:mt-0">
               <img src="./images/Group 10371.jpg" alt="" />
             </div>
           </div>
@@ -131,11 +133,13 @@
             class="bg-cover w-full h-1/6"
             style="background-image: url(./images/Group\ 10370.jpg)"
           >
-            <div class="flex flex-col px-32 py-96">
-              <h1 class="text-white text-4xl font-semibold">
+            <div class="flex flex-col px-10 py-10 lg:px-32 lg:py-96">
+              <h1
+                class="text-center text-white text-4xl font-semibold lg:text-left"
+              >
                 Grab a Goldfinch for your Store
               </h1>
-              <p class="text-white">
+              <p class="text-white text-center mt-10 lg:text-left lg:mt-1">
                 It's simple. Download Drench for free on the iOS App Store or
                 Google Play Store. Then, when you're out and about, you get
                 'drenched' with offers and exclusive discounts from restaurants,
@@ -149,13 +153,13 @@
           <br />
 
           <!-- cloudy -->
-          <div
+          <!-- <div
             class="bg-cover w-full h-1/6"
             style="background-image: url(./images/Asset\ 1.jpg)"
-          ></div>
+          ></div> -->
 
-          <div class="container flex flex-row mt-28 px-36">
-            <div class="flex-1 w-32 mt-48">
+          <div class="flex flex-col container lg:flex-row lg:mt-28 lg:px-36">
+            <div class="flex-auto w-100 text-center lg:w-32 lg:text-left">
               <p class="font-bold text-xl">Lorem ipsum</p>
               <hr class="w-16 mb-5 border-2 border-green-500" />
               <h1 class="text-4xl font-bold">Your Claimed Goldfinch</h1>
@@ -187,16 +191,18 @@
               </p>
             </div>
 
-            <div class="flex-1 w-64">
+            <div class="flex-auto w-96 lg:w-64">
               <img src="./images/Group 10400.jpg" alt="" />
             </div>
           </div>
 
           <!-- form portion -->
-          <div class="container px-36">
+          <div
+            class="flex container px-10 md:px-36 flex-col justify-center items-center ml-auto"
+          >
             <p class="font-bold text-xl tracking-wider">Become Our Partner</p>
             <hr class="w-10 mb-5 border-2 border-green-700" />
-            <h1 class="text-4xl font-bold tracking-wider">
+            <h1 class="text-3xl font-bold lg:tracking-wider lg:text-4xl">
               Goldfinch For Your Store
             </h1>
 
@@ -302,11 +308,11 @@
     >
       <div class="flex justify-between items-center">
         <div>
-          <p class="text-white px-36 py-12">
+          <p class="text-white px-10 lg:px-36 py-12">
             Copyright 2022.All Right Reserved.Powered By Rapidobots
           </p>
         </div>
-        <div class="flex flex-row gap-4 px-36">
+        <div class="flex flex-row gap-4 pr-20 lg:px-36">
           <img src="./images/facebook (2).svg" />
           <img src="./images/instagram (4).svg" />
           <img src="./images/twitter (1).svg" />
