@@ -1,6 +1,13 @@
 * {
   font-family: "Lato", sans-serif;
 }
+
+body{
+  background-image: url('./images/Asset\ 1.jpg');
+  background-size: cover;
+  background-position: bottom bottom;
+}
+
 h1,
 h2,
 h3,
@@ -8,4 +15,89 @@ h4,
 h5,
 h6 {
   font-family: "Sora", sans-serif;
+}
+
+
+@media screen and (max-width: 1850px) {
+  .side__nav {
+    width: 32rem !important;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .side__nav {
+    width: 31rem !important;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .side__nav {
+    width: 30rem !important;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .side__nav {
+    width: 29rem !important;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .side__nav {
+    width: 28rem !important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .side__nav {
+    width: 27rem !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .side__nav {
+    width: 26rem !important;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .side__nav {
+    width: 25rem !important;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .side__nav {
+    width: 23rem !important;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .side__nav {
+    width: 22rem !important;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+    .side__nav {
+      width: 21rem !important;
+    }
+  }
+  
+  @media screen and (max-width: 1130px) {
+    .side__nav {
+      width: 20rem !important;
+    }
+  }
+  
+  @media screen and (max-width: 1080px) {
+    .side__nav {
+      width: 19rem !important;
+    }
+  }
+
+
+@media screen and (max-width: 1023px) {
+  .sidenav__container {
+    display: none !important;
+  }
 }
